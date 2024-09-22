@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title %></title>
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+
     <style>
         .login-container {
             min-height: 100vh;
@@ -25,11 +19,7 @@
             background-color: #2563eb;
         }
     </style>
-</head>
-<body>
-    <%- include('partials/nav') %>
-    
-    <section class="bg-gray-50 dark:bg-gray-900 login-container">
+    <section id="login" class="bg-gray-50 dark:bg-gray-900 login-container">
         <div class="login-box bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
                 <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
@@ -64,6 +54,3 @@
         </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
-</body>
-</html>
